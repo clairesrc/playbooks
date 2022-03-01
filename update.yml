@@ -1,0 +1,6 @@
+---
+- name: Full system update
+  hosts: all
+  tasks:
+  - name: Full system update
+    ansible.builtin.shell: pacman -Syu --noconfirm --quiet

@@ -1,0 +1,6 @@
+- name: Install common packages
+  community.general.pacman:
+    name:
+      - tmux
+      - vim
+    state: present
